@@ -1,1 +1,5 @@
-export const DEFAULT_NAME = 'cy';
+export const USERINFO = {
+    name:'cy',
+    nickName:'cc',
+    gender:'MALE'
+};

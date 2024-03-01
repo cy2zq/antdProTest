@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img,
+input,
+button {
+  vertical-align: middle;
+  border: none;
+}
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  /* 行高是字体1.15倍 */
+  line-height: 1.15;
+  /*  背景图定位 / 背景图尺寸  cover 完全铺满容器  contain 完整显示在容器内 */
+  background: url(@/assets/images/contain4.png) no-repeat #000;
+  width: 1920px;
+  height: 1080px;
+}

@@ -1,0 +1,81 @@
+.mainbox {
+  margin: 13px 20px 0 49px;
+  display: flex;
+  .ul {
+    width: 267px;
+    // height: 200px;
+    // padding: 20px;
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-sizing: border-box;
+      width: 267px;
+      height: 75px;
+      margin-bottom: 18px;
+      padding-right: 10px;
+      padding-left: 20px;
+      color: #ffffff;
+      font-weight: 350;
+      font-size: 17px;
+      font-family: Source Han Sans;
+      line-height: 0.45rem;
+      letter-spacing: 0px;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 156, 255, 0.1) 0%,
+        rgba(2, 132, 255, 0.2) 100%
+      );
+      cursor: pointer;
+      opacity: 0.8;
+
+      img {
+        width: 37px;
+        height: 42px;
+      }
+      span {
+        font-weight: 350;
+        font-size: 17px;
+        line-height: 36px;
+        letter-spacing: 0px;
+      }
+      :hover {
+        color: white;
+        font-weight: 800;
+      }
+
+      .item_name {
+        margin-left: 10px;
+        opacity: 1;
+      }
+
+      .count {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 0.7125rem;
+        letter-spacing: 0px;
+        text-align: right;
+      }
+    }
+    .active {
+      background: radial-gradient(
+          42% 42% at 54% 0%,
+          rgba(0, 160, 255, 0.2) 0%,
+          rgba(0, 107, 255, 0) 100%
+        ),
+        radial-gradient(
+          42% 42% at 46% 100%,
+          rgba(0, 160, 255, 0.2) 0%,
+          rgba(0, 107, 255, 0) 100%
+        ),
+        linear-gradient(
+          180deg,
+          rgba(0, 156, 255, 0.1) 0%,
+          rgba(2, 132, 255, 0.2) 100%
+        );
+      border: 2px dashed;
+      border-image: linear-gradient(180deg, #1cadff 1%, #008cff 99%) 2;
+    }
+  }
+}

@@ -79,7 +79,9 @@ export default (props: any) => {
     setInitialState: null,
   };
   const { initialState, loading, setInitialState } = initialInfo;
-  const userConfig = {};
+  const userConfig = {
+  "title": "晁阳测试"
+};
 const formatMessage = undefined;
   const runtimeConfig = pluginManager.applyPlugins({
     key: 'layout',
